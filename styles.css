@@ -13,7 +13,7 @@ header {
     row-gap: 8px;
 }
 
-header input{
+header input {
     background-color: #e2e8f0;
     border: none;
     padding: 10px 14px;
@@ -22,24 +22,24 @@ header input{
     max-width: 500px;
 }
 
-.search i{
+.search i {
     padding-right: 12px;
 }
 
-header .search{
+header .search {
     display: flex;
     align-items: center;
 }
 
-header i{
+header i {
     color: #000;
 }
 
-header .user-name{
+header .user-name {
     font-weight: 700;
 }
 
-header .buttons button{
+header .buttons button {
     background-color: #1992d4;
     border: 0;
     padding: 10px 22px;
@@ -84,6 +84,10 @@ header .buttons {
     padding: 14px;
 }
 
+.sidebar .main-menu{
+    padding: 16px 0;
+}
+
 .sidebar ul {
     padding-inline-start: 0;
     padding-left: 6px;
@@ -112,18 +116,18 @@ main {
     gap: 20px;
 }
 
-.your-projects{
+.your-projects {
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-.projects{
+.projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px 18px;
 }
 
-.projects .item{
+.projects .item {
     background-color: #fff;
     padding: 16px;
     border-radius: 16px;
@@ -131,7 +135,7 @@ main {
     border-left: 4px solid #e3b030;
 }
 
-.item button{
+.item button {
     background-color: #1992d4;
     border-radius: 50%;
     width: 32px;
@@ -140,50 +144,58 @@ main {
     border: 0;
 }
 
-.item-buttons{
+.item-buttons {
     justify-self: right;
 }
 
-.announcements ul{
+.announcements ul {
     background-color: #fff;
     border-radius: 16px;
     list-style-type: none;
     padding: 20px 14px;
 }
 
-.announcements li{
+.announcements li {
     padding: 6px;
 }
 
-.announcements li:nth-child(2){
+.announcements li:nth-child(2) {
     border-top: 1px solid #808080;
     border-bottom: 1px solid #808080;
 }
 
-.announcements h4{
+.announcements h4 {
     margin: 4px 0;
 }
 
-.trending{
+.trending {
     grid-area: 2/2/3/3;
 }
 
-.trending .users{
+.trending .users {
     background-color: #fff;
     border-radius: 16px;
     padding-left: 26px;
 }
 
-.trending .user{
+.trending .user {
     display: flex;
     justify-content: left;
     gap: 14px;
 }
 
-.user .description{
+.user .description {
+    padding-top: 4px;
     display: block;
 }
 
-.buttons button:hover, .item button:hover{
+.user .description,
+.item p,
+.announcements p {
+    color: #737373;
+}
+
+.buttons button:hover,
+.item button:hover {
     background-color: #1f7ea1;
 }
