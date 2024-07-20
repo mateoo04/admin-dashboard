@@ -14,7 +14,7 @@
         justify-content: center;
     }
 
-    header{
+    header {
         grid-template-columns: 90px 1fr 90px;
     }
 
@@ -23,13 +23,13 @@
         gap: 20px;
     }
 
-    .sidebar-button{
+    .sidebar-button {
         display: flex;
         justify-content: left;
         align-items: center;
     }
 
-    .sidebar-button i{
+    .sidebar-button i {
         font-size: 1.8em;
     }
 
@@ -37,11 +37,15 @@
         display: none;
     }
 
-    .greeting{
+    .search {
+        justify-content: center;
+    }
+
+    .greeting {
         grid-area: 2/1/3/3;
     }
 
-    .buttons{
+    .buttons {
         grid-area: 3/1/3/4;
     }
 
@@ -80,12 +84,21 @@
         grid-template-columns: 1fr 200px;
     }
 
-    .sidebar-button{
+    .sidebar-button {
         display: none;
     }
 
     .user {
         justify-content: space-between;
+    }
+
+    .back-button {
+        visibility: collapse;
+    }
+
+    .sidebar {
+        position: relative;
+        display: block;
     }
 
     body {
@@ -145,7 +158,6 @@ header input {
 header .search {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 header i {
@@ -164,7 +176,7 @@ header .buttons button {
     color: #fff;
 }
 
-header i{
+header i {
     font-size: 1.2em;
 }
 
@@ -198,6 +210,7 @@ header .buttons {
 
 .greeting .user-name {
     font-size: 1.6em;
+    text-align: right;
 }
 
 .sidebar {
@@ -207,6 +220,15 @@ header .buttons {
     padding: 14px 30px;
     box-sizing: border-box;
     width: 260px;
+}
+.back-button-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.back-button {
+    font-size: 1.4em;
 }
 
 .sidebar .main-menu {
