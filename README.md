@@ -16,3 +16,4 @@ Admin Dashboard is a project built as a part of the Full Stack JavaScript course
 ## Technologies used
 * HTML
 * CSS (Grid + Flexbox)
+* Javascript
