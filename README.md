@@ -6,8 +6,10 @@ both desktop and mobile screen sizes.
 ## [Live Demo](https://mateoo04.github.io/admin-dashboard/)
 
 <img src="images/desktop.png" alt="Desktop layout">
+Desktop layout
 
 <img src="images/mobile.png" alt="Mobile layout" width="450">
+Mobile layout
 
 ## Resources used
 - [Font Awesome](https://fontawesome.com/) (Logo and button icons)
